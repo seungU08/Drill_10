@@ -3,7 +3,7 @@
 #게임 월드의 표현
 #두개의 layer를 갖는 게임월드구현
 
-objects = [ [], []]
+objects = [ [], [] , [] ]
 
 def add(o, depth=0):
     objects[depth].append(o)
